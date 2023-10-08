@@ -83,10 +83,19 @@ body{
     align-items: center;
 }
 .home-img img{
-    width: 35vw;
-    height: 650px;
-    animation: floatImage 3s ease-in-out infi;
+    /* width: 35vw; */
+    max-width: 100%;
+    height: auto;
+    animation: floatImage 3s ease-in-out infinite; 
+    
 }
+
+/* .home-img{
+    position: relative;
+    width: 35vw;
+    max-width: 100%;
+    overflow: hidden;
+} */
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -166,7 +175,9 @@ span {
 }
 
 .about-img img{
-    width: 35vw;
+    /* width: 35vw; */
+    max-width: 500px;
+    height: 500px;
 }
 
 .heading{
